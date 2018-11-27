@@ -1,0 +1,13 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="MySQL" injector-id="java">
+      <display-name>StringBuffer.StringBuffer (java.lang)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("StringBuffer").withParameters("java.lang.String").definedInClass("java.lang.StringBuffer"))]]></place>
+    </injection>
+    <injection language="MySQL" injector-id="java">
+      <display-name>StringBuilder (java.lang)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("StringBuilder").withParameters("java.lang.String").definedInClass("java.lang.StringBuilder"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("append").withParameters("java.lang.String").definedInClass("java.lang.StringBuilder"))]]></place>
+    </injection>
+  </component>
+</application>

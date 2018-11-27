@@ -1,0 +1,68 @@
+<templateSet group="My Template">
+  <template name="syso" value="System.out.println(&quot;$string$&quot;);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="lgd" value="android.util.Log.d(&quot;***CLC***&quot; , &quot;$CLASS_NAME$--&gt;&quot;+&quot;$METHOD_NAME$: $content$&quot;);" description="Log.d(TAG, String)" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="lgi" value="android.util.Log.i(&quot;***CLC***&quot; , &quot;$CLASS_NAME$--&gt;&quot;+&quot;$METHOD_NAME$: $content$&quot;);" description="Log.d(TAG, String)" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rid" value="R.id.$resId$" description="R.id.res" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="resId" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rly" value="R.layout.$resId$" description="R.layout.res" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="resId" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="getv" value="mViewHelper.getView(R.id.$resId$);" description="mViewHelper.getView" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="resId" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="str" value="R.string.$resId$" description="R.string.res" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="resId" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rdw" value="R.drawable.$resId$" description="R.drawable.res" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="resId" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rcol" value="R.color.$resId$" description="R.color.res" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="resId" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
