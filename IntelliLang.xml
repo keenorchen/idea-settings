@@ -1,6 +1,10 @@
 <application>
   <component name="LanguageInjectionConfiguration">
     <injection language="MySQL" injector-id="java">
+      <display-name>SQLDelete.sql (org.hibernate.annotations)</display-name>
+      <place><![CDATA[psiMethod().withName("sql").withParameters().definedInClass("org.hibernate.annotations.SQLDelete")]]></place>
+    </injection>
+    <injection language="MySQL" injector-id="java">
       <display-name>StringBuffer.StringBuffer (java.lang)</display-name>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("StringBuffer").withParameters("java.lang.String").definedInClass("java.lang.StringBuffer"))]]></place>
     </injection>
