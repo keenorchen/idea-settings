@@ -18,6 +18,10 @@
           <option name="url" value="git@github.com:keenoor/hula-assistant.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.zcbrop.com" />
+          <option name="userName" value="chenliuchun" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="E:\workspace\keenoor" />
