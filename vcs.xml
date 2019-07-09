@@ -22,6 +22,10 @@
           <option name="url" value="http://git.zcbrop.com" />
           <option name="userName" value="chenliuchun" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/spring-guides/draft-gs-multi-module.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="E:\workspace\keenoor" />
