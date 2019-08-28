@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="FileNotFoundException: class path resource [com/alibaba/druid/spring/boot/autoconfigure/stat/DruidSpringAopConfiguration.class] cannot be opened because it does not exist" />
       <item value="sync Data Example" />
     </histories>
     <option name="languageScores">
