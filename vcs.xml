@@ -46,9 +46,17 @@
           <option name="url" value="https://github.com/wuyouzhuguli/FEBS-Shiro.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://chenliuchun@git.zcbrop.com/scm/brop/brochain-sync-be.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://chenliuchun@git.zcbrop.com/scm/brop/brochain-browser-be.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\workspace\github" />
+    <option name="cloneParentDir" value="D:\workspace\brop" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_TAG_NAMES" value="true" />
