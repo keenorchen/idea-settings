@@ -54,6 +54,10 @@
           <option name="url" value="http://chenliuchun@git.zcbrop.com/scm/brop/brochain-browser-be.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://chenliuchun@git.zcbrop.com/scm/brop/bc-browser-s052cbp-fe.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\workspace\brop" />
