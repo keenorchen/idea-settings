@@ -10,6 +10,7 @@
       <mapping pattern="sss" type="PLAIN_TEXT" />
       <mapping pattern="proofCreds" type="PLAIN_TEXT" />
       <mapping pattern="haha" type="PLAIN_TEXT" />
+      <mapping pattern="asdasd" type="PLAIN_TEXT" />
       <mapping ext="map" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
