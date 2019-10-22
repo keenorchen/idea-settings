@@ -70,6 +70,10 @@
           <option name="url" value="http://chenliuchun@git.zcbrop.com/scm/brop/contract-region.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://chenliuchun@git.zcbrop.com/scm/brop/brochain-sync-s052cbp-be.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\workspace\brop" />
