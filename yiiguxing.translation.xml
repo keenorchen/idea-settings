@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="thread" />
+      <item value="细线" />
+      <item value="弦" />
+      <item value="bowstring" />
+      <item value="String" />
       <item value="Decoder Exception" />
       <item value="retrieve" />
       <item value="FileNotFoundException: class path resource [com/alibaba/druid/spring/boot/autoconfigure/stat/DruidSpringAopConfiguration.class] cannot be opened because it does not exist" />
@@ -8,8 +13,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="3" />
-        <entry key="ENGLISH" value="3" />
+        <entry key="CHINESE" value="6" />
+        <entry key="ENGLISH" value="7" />
       </map>
     </option>
   </component>
