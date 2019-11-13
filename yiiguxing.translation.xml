@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="desired" />
+      <item value="consecutive" />
       <item value="thread" />
       <item value="细线" />
       <item value="弦" />
@@ -13,8 +15,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="6" />
-        <entry key="ENGLISH" value="7" />
+        <entry key="CHINESE" value="8" />
+        <entry key="ENGLISH" value="9" />
       </map>
     </option>
   </component>
