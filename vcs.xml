@@ -82,9 +82,13 @@
           <option name="url" value="http://chenliuchun@git.zcbrop.com/scm/brop/face-invoke-counter.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/alibaba/easyexcel.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\workspace\brop" />
+    <option name="cloneParentDir" value="D:\workspace\learn-demo" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_TAG_NAMES" value="true" />
