@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="* &lt;p&gt;When specified on a class-level {@code @Async} annotation, indicates that the * given executor should be used for all methods within the class. Method-level use * of {@code Async#value} always overrides any value set at the class level." />
       <item value="* Convenience method for doing two-step conversion from given value, into * instance of given value type, if (but only if!) conversion is needed. * If given value is already of requested type, value is returned as is." />
       <item value="Unsatisfied dependency expressed through field 'elasticsearchTemplate" />
       <item value="stock" />
@@ -20,7 +21,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="12" />
-        <entry key="ENGLISH" value="12" />
+        <entry key="ENGLISH" value="13" />
       </map>
     </option>
   </component>
