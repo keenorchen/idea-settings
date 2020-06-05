@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="* Set whether to proxy the target class directly, instead of just proxying * specific interfaces. Default is &quot;false&quot;. * &lt;p&gt;Set this to &quot;true&quot; to force proxying for the TargetSource's exposed * target class. If that target class is an interface, a JDK proxy will be * created for the given interface. If that target class is any other class, * a CGLIB proxy will be created for the given class. * &lt;p&gt;Note: Depending on the configuration of the concrete proxy factory, * the proxy-target-class behavior will also be applied if no interfaces * have been specified (and no interface autodetection is activated)." />
       <item value="* The number part of each section must consist of one or more ASCII digits. * The number may be prefixed by the ASCII negative or positive symbol. * The number of days, hours and minutes must parse to an {@code long}. * The number of seconds must parse to an {@code long} with optional fraction. * The decimal point may be either a dot or a comma." />
       <item value="* At least one of the four sections must be present, and if &quot;T&quot; is present * there must be at least one section after the &quot;T&quot;." />
       <item value="* There are then four sections, each consisting of a number and a suffix. * The sections have suffixes in ASCII of &quot;D&quot;, &quot;H&quot;, &quot;M&quot; and &quot;S&quot; for * days, hours, minutes and seconds, accepted in upper or lower case. * The suffixes must occur in order. The ASCII letter &quot;T&quot; must occur before * the first occurrence, if any, of an hour, minute or second section." />
@@ -26,8 +27,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="18" />
-        <entry key="ENGLISH" value="19" />
+        <entry key="CHINESE" value="19" />
+        <entry key="ENGLISH" value="20" />
       </map>
     </option>
   </component>
