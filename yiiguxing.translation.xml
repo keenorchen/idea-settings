@@ -1,18 +1,38 @@
 <application>
   <component name="AppStorage">
     <histories>
-      <item value="method to move or rename a file in a * platform independent manner." />
-      <item value="The return value should always be checked to make sure * that the rename operation was successful" />
-      <item value="The rename operation might not be able to move a * file from one filesystem to another" />
-      <item value="Many aspects of the behavior of this method are inherently * platform-dependent" />
-      <item value="Renames the file denoted by this abstract pathname" />
-      <item value="Bankruptcy" />
+      <item value="unaffected" />
+      <item value="* Returns the approximate total number of tasks that have ever been * scheduled for execution. Because the states of tasks and * threads may change dynamically during computation, the returned * value is only an approximation." />
+      <item value="PIPE" />
+      <item value="* Whether suffix pattern matching should work only against extensions registered * with &quot;spring.mvc.contentnegotiation.media-types.*&quot;. This is generally * recommended to reduce ambiguity and to avoid issues such as when a &quot;.&quot; appears * in the path for other reasons." />
+      <item value="* Set whether to proxy the target class directly, instead of just proxying * specific interfaces. Default is &quot;false&quot;. * &lt;p&gt;Set this to &quot;true&quot; to force proxying for the TargetSource's exposed * target class. If that target class is an interface, a JDK proxy will be * created for the given interface. If that target class is any other class, * a CGLIB proxy will be created for the given class. * &lt;p&gt;Note: Depending on the configuration of the concrete proxy factory, * the proxy-target-class behavior will also be applied if no interfaces * have been specified (and no interface autodetection is activated)." />
+      <item value="* The number part of each section must consist of one or more ASCII digits. * The number may be prefixed by the ASCII negative or positive symbol. * The number of days, hours and minutes must parse to an {@code long}. * The number of seconds must parse to an {@code long} with optional fraction. * The decimal point may be either a dot or a comma." />
+      <item value="* At least one of the four sections must be present, and if &quot;T&quot; is present * there must be at least one section after the &quot;T&quot;." />
+      <item value="* There are then four sections, each consisting of a number and a suffix. * The sections have suffixes in ASCII of &quot;D&quot;, &quot;H&quot;, &quot;M&quot; and &quot;S&quot; for * days, hours, minutes and seconds, accepted in upper or lower case. * The suffixes must occur in order. The ASCII letter &quot;T&quot; must occur before * the first occurrence, if any, of an hour, minute or second section." />
+      <item value="* The string starts with an optional sign, denoted by the ASCII negative * or positive symbol. If negative, the whole period is negated. * The ASCII letter &quot;P&quot; is next in upper or lower case." />
+      <item value="* Obtains a {@code Duration} from a text string such as {@code PnDTnHnMn.nS}. * &lt;p&gt; * This will parse a textual representation of a duration, including the * string produced by {@code toString()}. The formats accepted are based * on the ISO-8601 duration format {@code PnDTnHnMn.nS} with days * considered to be exactly 24 hours." />
+      <item value="* Enables case-insensitive matching." />
+      <item value="* &lt;p&gt;When specified on a class-level {@code @Async} annotation, indicates that the * given executor should be used for all methods within the class. Method-level use * of {@code Async#value} always overrides any value set at the class level." />
+      <item value="* Convenience method for doing two-step conversion from given value, into * instance of given value type, if (but only if!) conversion is needed. * If given value is already of requested type, value is returned as is." />
+      <item value="Unsatisfied dependency expressed through field 'elasticsearchTemplate" />
+      <item value="stock" />
+      <item value="Commodity" />
+      <item value="desired" />
+      <item value="consecutive" />
+      <item value="thread" />
+      <item value="细线" />
+      <item value="弦" />
+      <item value="bowstring" />
+      <item value="String" />
+      <item value="Decoder Exception" />
+      <item value="retrieve" />
+      <item value="FileNotFoundException: class path resource [com/alibaba/druid/spring/boot/autoconfigure/stat/DruidSpringAopConfiguration.class] cannot be opened because it does not exist" />
       <item value="sync Data Example" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="6" />
-        <entry key="ENGLISH" value="7" />
+        <entry key="CHINESE" value="23" />
+        <entry key="ENGLISH" value="24" />
       </map>
     </option>
   </component>
