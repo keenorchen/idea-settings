@@ -1,0 +1,19 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="method to move or rename a file in a * platform independent manner." />
+      <item value="The return value should always be checked to make sure * that the rename operation was successful" />
+      <item value="The rename operation might not be able to move a * file from one filesystem to another" />
+      <item value="Many aspects of the behavior of this method are inherently * platform-dependent" />
+      <item value="Renames the file denoted by this abstract pathname" />
+      <item value="Bankruptcy" />
+      <item value="sync Data Example" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="6" />
+        <entry key="ENGLISH" value="7" />
+      </map>
+    </option>
+  </component>
+</application>
