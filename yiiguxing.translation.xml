@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="* Returns a representation of the specified floating-point value * according to the IEEE 754 floating-point &quot;double * format&quot; bit layout." />
       <item value="* &lt;p&gt;An alternative to implementing {@code InitializingBean} is specifying a custom * init method, for example in an XML bean definition. For a list of all bean * lifecycle methods, see the {@link BeanFactory BeanFactory javadocs}." />
       <item value="* Interface to be implemented by beans that need to react once all their properties * have been set by a {@link BeanFactory}: e.g. to perform custom initialization, * or merely to check that all mandatory properties have been set." />
       <item value="* &lt;p&gt;A Spring-managed bean may also implement Java's {@link AutoCloseable} interface * for the same purpose. An alternative to implementing an interface is specifying a * custom destroy method, for example in an XML bean definition. For a list of all * bean lifecycle methods, see the {@link BeanFactory BeanFactory javadocs}." />
@@ -35,8 +36,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="27" />
-        <entry key="ENGLISH" value="28" />
+        <entry key="CHINESE" value="28" />
+        <entry key="ENGLISH" value="29" />
       </map>
     </option>
   </component>
