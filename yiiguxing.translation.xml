@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="* If the specified key is not already associated * with a value, associate it with the given value. * This is equivalent to" />
       <item value="* Suppose instead that you would like to use the first non-null result * of the set of tasks, ignoring any that encounter exceptions, * and cancelling all other tasks when the first one is ready:" />
       <item value="* Suppose you have a set of solvers for a certain problem, each * returning a value of some type {@code Result}, and would like to * run them concurrently, processing the results of each of them that * return a non-null value, in some method {@code use(Result r)}. You * could write this as:" />
       <item value="the queue to use as the completion queue * normally one dedicated for use by this service. This * queue is treated as unbounded -- failed attempted * {@code Queue.add} operations for completed tasks cause * them not to be retrievable" />
@@ -40,8 +41,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="33" />
-        <entry key="ENGLISH" value="34" />
+        <entry key="CHINESE" value="34" />
+        <entry key="ENGLISH" value="35" />
       </map>
     </option>
   </component>
