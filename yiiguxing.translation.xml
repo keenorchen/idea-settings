@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Perform a shutdown on the underlying ExecutorService" />
+      <item value="* &lt;p&gt;Specify &quot;true&quot; for eager shutdown of threads which still actively execute * a {@link Runnable} at the time that the application itself shuts down." />
+      <item value="* Set whether this factory is supposed to create daemon threads, * just executing as long as the application itself is running. * &lt;p&gt;Default is &quot;false&quot;: Concrete factories usually support explicit cancelling. * Hence, if the application shuts down, Runnables will by default finish their * execution." />
+      <item value="drain" />
+      <item value="* Transitions to TERMINATED state if either (SHUTDOWN and pool * and queue empty) or (STOP and pool empty). If otherwise * eligible to terminate but workerCount is nonzero, interrupts an * idle worker to ensure that shutdown signals propagate. This * method must be called following any action that might make * termination possible -- reducing worker count or removing tasks * from the queue during shutdown. The method is non-private to * allow access from ScheduledThreadPoolExecutor." />
       <item value="If you want this executor to block and wait for the * termination of tasks before the rest of the container continues to shut * down" />
       <item value="Note that Spring's container shutdown continues while ongoing tasks * are being completed" />
       <item value="ongoing tasks * are being completed" />
@@ -46,14 +51,11 @@
       <item value="bowstring" />
       <item value="String" />
       <item value="Decoder Exception" />
-      <item value="retrieve" />
-      <item value="FileNotFoundException: class path resource [com/alibaba/druid/spring/boot/autoconfigure/stat/DruidSpringAopConfiguration.class] cannot be opened because it does not exist" />
-      <item value="sync Data Example" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="46" />
-        <entry key="ENGLISH" value="47" />
+        <entry key="CHINESE" value="51" />
+        <entry key="ENGLISH" value="52" />
       </map>
     </option>
   </component>
