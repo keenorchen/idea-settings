@@ -2,7 +2,7 @@
   <option name="FONT_SCALE" value="1.0" />
   <option name="CONSOLE_FONT_NAME" value="Consolas" />
   <option name="CONSOLE_FONT_SIZE" value="14" />
-  <option name="EDITOR_QUICK_DOC_FONT_SIZE" value="MEDIUM" />
+  <option name="CONSOLE_LINE_SPACING" value="1.2" />
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
       <value>
@@ -13589,6 +13589,17 @@
       <value>
         <option name="FOREGROUND" value="0" />
         <option name="BACKGROUND" value="cce8cf" />
+      </value>
+    </option>
+    <option name="me.serce.solidity.CONTRACT_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="me.serce.solidity.NUMBER">
+      <value>
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
   </attributes>
