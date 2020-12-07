@@ -106,9 +106,13 @@
           <option name="url" value="http://chenliuchun@git.zcbrop.com/scm/lvzheng/green-voucher-contract.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://chenliuchun@git.zcbrop.com/scm/brop/general-voucher-contract.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\workspace\green" />
+    <option name="cloneParentDir" value="D:\workspace\brop" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_TAG_NAMES" value="true" />
