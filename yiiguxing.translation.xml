@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="* Returns the value associated with {@code key} in this cache, obtaining that value from {@code * loader} if necessary. The method improves upon the conventional &quot;if cached, return; otherwise * create, cache and return&quot; pattern. For further improvements, use {@link LoadingCache} and its * {@link LoadingCache#get(Object) get(K)} method instead of this one." />
       <item value="* If the absolute value of the significand of this BigDecimal is * less than or equal to {@code Long.MAX_VALUE}, the value can be * compactly stored in this field and used in computations." />
       <item value="* The number of decimal digits in this BigDecimal, or 0 if the * number of digits are not known (lookaside information). If * nonzero, the value is guaranteed correct. Use the precision() * method to obtain and set the value if it might be 0. This * field is mutable until set nonzero." />
       <item value="* Set the {@code accessible} flag for this object to * the indicated boolean value. A value of {@code true} indicates that * the reflected object should suppress Java language access * checking when it is used. A value of {@code false} indicates * that the reflected object should enforce Java language access checks." />
@@ -50,7 +51,6 @@
       <item value="* The string starts with an optional sign, denoted by the ASCII negative * or positive symbol. If negative, the whole period is negated. * The ASCII letter &quot;P&quot; is next in upper or lower case." />
       <item value="* Obtains a {@code Duration} from a text string such as {@code PnDTnHnMn.nS}. * &lt;p&gt; * This will parse a textual representation of a duration, including the * string produced by {@code toString()}. The formats accepted are based * on the ISO-8601 duration format {@code PnDTnHnMn.nS} with days * considered to be exactly 24 hours." />
       <item value="* Enables case-insensitive matching." />
-      <item value="* &lt;p&gt;When specified on a class-level {@code @Async} annotation, indicates that the * given executor should be used for all methods within the class. Method-level use * of {@code Async#value} always overrides any value set at the class level." />
     </histories>
     <option name="languageScores">
       <map>
