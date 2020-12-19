@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="* When a {@code double} must be used as a source for a * {@code BigDecimal}, note that this constructor provides an * exact conversion; it does not give the same result as * converting the {@code double} to a {@code String} using the * {@link Double#toString(double)} method and then using the * {@link #BigDecimal(String)} constructor. To get that result, * use the {@code static} {@link #valueOf(double)} method." />
+      <item value="* The {@code String} constructor, on the other hand, is * perfectly predictable: writing {@code new BigDecimal(&quot;0.1&quot;)} * creates a {@code BigDecimal} which is &lt;i&gt;exactly&lt;/i&gt; equal to * 0.1, as one would expect. Therefore, it is generally * recommended that the {@linkplain #BigDecimal(String) * &lt;tt&gt;String&lt;/tt&gt; constructor} be used in preference to this one." />
+      <item value="* This is because 0.1 cannot be represented exactly as a * {@code double} (or, for that matter, as a binary fraction of * any finite length). Thus, the value that is being passed * &lt;i&gt;in&lt;/i&gt; to the constructor is not exactly equal to 0.1, * appearances notwithstanding." />
+      <item value="* The results of this constructor can be somewhat unpredictable. * One might assume that writing {@code new BigDecimal(0.1)} in * Java creates a {@code BigDecimal} which is exactly equal to * 0.1 (an unscaled value of 1, with a scale of 1), but it is * actually equal to * 0.1000000000000000055511151231257827021181583404541015625." />
+      <item value="* Translates a {@code double} into a {@code BigDecimal} which * is the exact decimal representation of the {@code double}'s * binary floating-point value. The scale of the returned * {@code BigDecimal} is the smallest value such that * &lt;tt&gt;(10&lt;sup&gt;scale&lt;/sup&gt; &amp;times; val)&lt;/tt&gt; is an integer." />
       <item value="* Returns the value associated with {@code key} in this cache, obtaining that value from {@code * loader} if necessary. The method improves upon the conventional &quot;if cached, return; otherwise * create, cache and return&quot; pattern. For further improvements, use {@link LoadingCache} and its * {@link LoadingCache#get(Object) get(K)} method instead of this one." />
       <item value="* If the absolute value of the significand of this BigDecimal is * less than or equal to {@code Long.MAX_VALUE}, the value can be * compactly stored in this field and used in computations." />
       <item value="* The number of decimal digits in this BigDecimal, or 0 if the * number of digits are not known (lookaside information). If * nonzero, the value is guaranteed correct. Use the precision() * method to obtain and set the value if it might be 0. This * field is mutable until set nonzero." />
@@ -46,16 +51,11 @@
       <item value="* Whether suffix pattern matching should work only against extensions registered * with &quot;spring.mvc.contentnegotiation.media-types.*&quot;. This is generally * recommended to reduce ambiguity and to avoid issues such as when a &quot;.&quot; appears * in the path for other reasons." />
       <item value="* Set whether to proxy the target class directly, instead of just proxying * specific interfaces. Default is &quot;false&quot;. * &lt;p&gt;Set this to &quot;true&quot; to force proxying for the TargetSource's exposed * target class. If that target class is an interface, a JDK proxy will be * created for the given interface. If that target class is any other class, * a CGLIB proxy will be created for the given class. * &lt;p&gt;Note: Depending on the configuration of the concrete proxy factory, * the proxy-target-class behavior will also be applied if no interfaces * have been specified (and no interface autodetection is activated)." />
       <item value="* The number part of each section must consist of one or more ASCII digits. * The number may be prefixed by the ASCII negative or positive symbol. * The number of days, hours and minutes must parse to an {@code long}. * The number of seconds must parse to an {@code long} with optional fraction. * The decimal point may be either a dot or a comma." />
-      <item value="* At least one of the four sections must be present, and if &quot;T&quot; is present * there must be at least one section after the &quot;T&quot;." />
-      <item value="* There are then four sections, each consisting of a number and a suffix. * The sections have suffixes in ASCII of &quot;D&quot;, &quot;H&quot;, &quot;M&quot; and &quot;S&quot; for * days, hours, minutes and seconds, accepted in upper or lower case. * The suffixes must occur in order. The ASCII letter &quot;T&quot; must occur before * the first occurrence, if any, of an hour, minute or second section." />
-      <item value="* The string starts with an optional sign, denoted by the ASCII negative * or positive symbol. If negative, the whole period is negated. * The ASCII letter &quot;P&quot; is next in upper or lower case." />
-      <item value="* Obtains a {@code Duration} from a text string such as {@code PnDTnHnMn.nS}. * &lt;p&gt; * This will parse a textual representation of a duration, including the * string produced by {@code toString()}. The formats accepted are based * on the ISO-8601 duration format {@code PnDTnHnMn.nS} with days * considered to be exactly 24 hours." />
-      <item value="* Enables case-insensitive matching." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="63" />
-        <entry key="ENGLISH" value="64" />
+        <entry key="CHINESE" value="68" />
+        <entry key="ENGLISH" value="69" />
       </map>
     </option>
   </component>
