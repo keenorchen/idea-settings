@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="* Rounding mode to round towards the {@literal &quot;nearest neighbor&quot;} * unless both neighbors are equidistant, in which case, round * towards the even neighbor. Behaves as for * {@code RoundingMode.HALF_UP} if the digit to the left of the * discarded fraction is odd; behaves as for * {@code RoundingMode.HALF_DOWN} if it's even. Note that this * is the rounding mode that statistically minimizes cumulative * error when applied repeatedly over a sequence of calculations. * It is sometimes known as {@literal &quot;Banker's rounding,&quot;} and is * chiefly used in the USA. This rounding mode is analogous to * the rounding policy used for {@code float} and {@code double} * arithmetic in Java." />
       <item value="* When a {@code double} must be used as a source for a * {@code BigDecimal}, note that this constructor provides an * exact conversion; it does not give the same result as * converting the {@code double} to a {@code String} using the * {@link Double#toString(double)} method and then using the * {@link #BigDecimal(String)} constructor. To get that result, * use the {@code static} {@link #valueOf(double)} method." />
       <item value="* The {@code String} constructor, on the other hand, is * perfectly predictable: writing {@code new BigDecimal(&quot;0.1&quot;)} * creates a {@code BigDecimal} which is &lt;i&gt;exactly&lt;/i&gt; equal to * 0.1, as one would expect. Therefore, it is generally * recommended that the {@linkplain #BigDecimal(String) * &lt;tt&gt;String&lt;/tt&gt; constructor} be used in preference to this one." />
       <item value="* This is because 0.1 cannot be represented exactly as a * {@code double} (or, for that matter, as a binary fraction of * any finite length). Thus, the value that is being passed * &lt;i&gt;in&lt;/i&gt; to the constructor is not exactly equal to 0.1, * appearances notwithstanding." />
@@ -50,12 +51,11 @@
       <item value="PIPE" />
       <item value="* Whether suffix pattern matching should work only against extensions registered * with &quot;spring.mvc.contentnegotiation.media-types.*&quot;. This is generally * recommended to reduce ambiguity and to avoid issues such as when a &quot;.&quot; appears * in the path for other reasons." />
       <item value="* Set whether to proxy the target class directly, instead of just proxying * specific interfaces. Default is &quot;false&quot;. * &lt;p&gt;Set this to &quot;true&quot; to force proxying for the TargetSource's exposed * target class. If that target class is an interface, a JDK proxy will be * created for the given interface. If that target class is any other class, * a CGLIB proxy will be created for the given class. * &lt;p&gt;Note: Depending on the configuration of the concrete proxy factory, * the proxy-target-class behavior will also be applied if no interfaces * have been specified (and no interface autodetection is activated)." />
-      <item value="* The number part of each section must consist of one or more ASCII digits. * The number may be prefixed by the ASCII negative or positive symbol. * The number of days, hours and minutes must parse to an {@code long}. * The number of seconds must parse to an {@code long} with optional fraction. * The decimal point may be either a dot or a comma." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="68" />
-        <entry key="ENGLISH" value="69" />
+        <entry key="CHINESE" value="69" />
+        <entry key="ENGLISH" value="70" />
       </map>
     </option>
   </component>
