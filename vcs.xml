@@ -94,9 +94,25 @@
           <option name="url" value="https://github.com/youfou/wxpy.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://github.com" />
+          <option name="userName" value="chen_liuchun@qq.com" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://chenliuchun@git.zcbrop.com/scm/lvzheng/green-voucher-api.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://chenliuchun@git.zcbrop.com/scm/lvzheng/green-voucher-contract.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://chenliuchun@git.zcbrop.com/scm/brop/general-voucher-contract.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\workspace\python" />
+    <option name="cloneParentDir" value="D:\workspace\brop" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_TAG_NAMES" value="true" />

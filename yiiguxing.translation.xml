@@ -1,39 +1,65 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="* Rounding mode to round towards the {@literal &quot;nearest neighbor&quot;} * unless both neighbors are equidistant, in which case, round * towards the even neighbor. Behaves as for * {@code RoundingMode.HALF_UP} if the digit to the left of the * discarded fraction is odd; behaves as for * {@code RoundingMode.HALF_DOWN} if it's even. Note that this * is the rounding mode that statistically minimizes cumulative * error when applied repeatedly over a sequence of calculations. * It is sometimes known as {@literal &quot;Banker's rounding,&quot;} and is * chiefly used in the USA. This rounding mode is analogous to * the rounding policy used for {@code float} and {@code double} * arithmetic in Java." />
+      <item value="* When a {@code double} must be used as a source for a * {@code BigDecimal}, note that this constructor provides an * exact conversion; it does not give the same result as * converting the {@code double} to a {@code String} using the * {@link Double#toString(double)} method and then using the * {@link #BigDecimal(String)} constructor. To get that result, * use the {@code static} {@link #valueOf(double)} method." />
+      <item value="* The {@code String} constructor, on the other hand, is * perfectly predictable: writing {@code new BigDecimal(&quot;0.1&quot;)} * creates a {@code BigDecimal} which is &lt;i&gt;exactly&lt;/i&gt; equal to * 0.1, as one would expect. Therefore, it is generally * recommended that the {@linkplain #BigDecimal(String) * &lt;tt&gt;String&lt;/tt&gt; constructor} be used in preference to this one." />
+      <item value="* This is because 0.1 cannot be represented exactly as a * {@code double} (or, for that matter, as a binary fraction of * any finite length). Thus, the value that is being passed * &lt;i&gt;in&lt;/i&gt; to the constructor is not exactly equal to 0.1, * appearances notwithstanding." />
+      <item value="* The results of this constructor can be somewhat unpredictable. * One might assume that writing {@code new BigDecimal(0.1)} in * Java creates a {@code BigDecimal} which is exactly equal to * 0.1 (an unscaled value of 1, with a scale of 1), but it is * actually equal to * 0.1000000000000000055511151231257827021181583404541015625." />
+      <item value="* Translates a {@code double} into a {@code BigDecimal} which * is the exact decimal representation of the {@code double}'s * binary floating-point value. The scale of the returned * {@code BigDecimal} is the smallest value such that * &lt;tt&gt;(10&lt;sup&gt;scale&lt;/sup&gt; &amp;times; val)&lt;/tt&gt; is an integer." />
+      <item value="* Returns the value associated with {@code key} in this cache, obtaining that value from {@code * loader} if necessary. The method improves upon the conventional &quot;if cached, return; otherwise * create, cache and return&quot; pattern. For further improvements, use {@link LoadingCache} and its * {@link LoadingCache#get(Object) get(K)} method instead of this one." />
+      <item value="* If the absolute value of the significand of this BigDecimal is * less than or equal to {@code Long.MAX_VALUE}, the value can be * compactly stored in this field and used in computations." />
+      <item value="* The number of decimal digits in this BigDecimal, or 0 if the * number of digits are not known (lookaside information). If * nonzero, the value is guaranteed correct. Use the precision() * method to obtain and set the value if it might be 0. This * field is mutable until set nonzero." />
+      <item value="* Set the {@code accessible} flag for this object to * the indicated boolean value. A value of {@code true} indicates that * the reflected object should suppress Java language access * checking when it is used. A value of {@code false} indicates * that the reflected object should enforce Java language access checks." />
+      <item value="* &lt;p&gt; The field to be reflected is determined by the algorithm that * follows. Let C be the class or interface represented by this object:" />
+      <item value="* Returns a {@code Field} object that reflects the specified public member * field of the class or interface represented by this {@code Class} * object. The {@code name} parameter is a {@code String} specifying the * simple name of the desired field." />
+      <item value="* &lt;p&gt; The elements in the returned array are not sorted and are not in any * particular order." />
+      <item value="* &lt;p&gt; If this {@code Class} object represents an array type, a primitive * type, or void, then this method returns an array of length 0." />
+      <item value="* &lt;p&gt; If this {@code Class} object represents a class or interface with no * declared fields, then this method returns an array of length 0." />
+      <item value="* Compares this string to the specified {@code StringBuffer}. The result * is {@code true} if and only if this {@code String} represents the same * sequence of characters as the specified {@code StringBuffer}. This method * synchronizes on the {@code StringBuffer}." />
+      <item value="because there was a socket exception raised by this connection" />
+      <item value="* &lt;p&gt;By default, this executor won't wait for the termination of tasks at all. * It will either shut down immediately, interrupting ongoing tasks and clearing * the remaining task queue - or, if the * {@link #setWaitForTasksToCompleteOnShutdown &quot;waitForTasksToCompleteOnShutdown&quot;} * flag has been set to {@code true}, it will continue to fully execute all * ongoing tasks as well as all remaining tasks in the queue, in parallel to * the rest of the container shutting down." />
+      <item value="* Set the maximum number of seconds that this executor is supposed to block * on shutdown in order to wait for remaining tasks to complete their execution * before the rest of the container continues to shut down. This is particularly * useful if your remaining tasks are likely to need access to other resources * that are also managed by the container." />
+      <item value="Perform a shutdown on the underlying ExecutorService" />
+      <item value="* &lt;p&gt;Specify &quot;true&quot; for eager shutdown of threads which still actively execute * a {@link Runnable} at the time that the application itself shuts down." />
+      <item value="* Set whether this factory is supposed to create daemon threads, * just executing as long as the application itself is running. * &lt;p&gt;Default is &quot;false&quot;: Concrete factories usually support explicit cancelling. * Hence, if the application shuts down, Runnables will by default finish their * execution." />
+      <item value="drain" />
+      <item value="* Transitions to TERMINATED state if either (SHUTDOWN and pool * and queue empty) or (STOP and pool empty). If otherwise * eligible to terminate but workerCount is nonzero, interrupts an * idle worker to ensure that shutdown signals propagate. This * method must be called following any action that might make * termination possible -- reducing worker count or removing tasks * from the queue during shutdown. The method is non-private to * allow access from ScheduledThreadPoolExecutor." />
+      <item value="If you want this executor to block and wait for the * termination of tasks before the rest of the container continues to shut * down" />
+      <item value="Note that Spring's container shutdown continues while ongoing tasks * are being completed" />
+      <item value="ongoing tasks * are being completed" />
+      <item value="at the expense of a longer shutdown phase" />
+      <item value="* Set whether to wait for scheduled tasks to complete on shutdown, * not interrupting running tasks and executing all tasks in the queue. * &lt;p&gt;Default is &quot;false&quot;, shutting down immediately through interrupting * ongoing tasks and clearing the queue. Switch this flag to &quot;true&quot; if you * prefer fully completed tasks at the expense of a longer shutdown phase. * &lt;p&gt;Note that Spring's container shutdown continues while ongoing tasks * are being completed. If you want this executor to block and wait for the * termination of tasks before the rest of the container continues to shut * down - e.g. in order to keep up other resources that your tasks may need -," />
+      <item value="* &lt;p&gt;This method does not alter the state of this {@code CacheBuilder} instance, so it can be * invoked again to create multiple independent caches." />
+      <item value="* Builds a cache, which either returns an already-loaded value for a given key or atomically * computes or retrieves it using the supplied {@code CacheLoader}. If another thread is currently * loading the value for this key, simply waits for that thread to finish and returns its loaded * value. Note that multiple threads can concurrently load values for distinct keys." />
+      <item value="* Return the {@link RestHighLevelClient} instance used to connect to the cluster. &lt;br /&gt; * Annotate with {@link Bean} in case you want to expose a {@link RestHighLevelClient} instance to the * {@link org.springframework.context.ApplicationContext}." />
+      <item value="* Set whether this factory is supposed to create daemon threads, * just executing as long as the application itself is running. * &lt;p&gt;Default is &quot;false&quot;: Concrete factories usually support explicit cancelling. * Hence, if the application shuts down, Runnables will by default finish their * execution. * &lt;p&gt;Specify &quot;true&quot; for eager shutdown of threads which still actively execute * a {@link Runnable} at the time that the application itself shuts down." />
+      <item value="* One common use case is to use a delegating Creator to construct instances from * scalar values (like &lt;code&gt;java.lang.String&lt;/code&gt;) during deserialization, * and serialize values using {@link JsonValue}." />
+      <item value="* NOTE: when use for Java &lt;code&gt;enum&lt;/code&gt;s, one additional feature is * that value returned by annotated method is also considered to be the * value to deserialize from, not just JSON String to serialize as. * This is possible since set of Enum values is constant and it is possible * to define mapping, but can not be done in general for POJO types; as such, * this is not used for POJO deserialization." />
+      <item value="* If the specified key is not already associated * with a value, associate it with the given value. * This is equivalent to" />
+      <item value="* Suppose instead that you would like to use the first non-null result * of the set of tasks, ignoring any that encounter exceptions, * and cancelling all other tasks when the first one is ready:" />
+      <item value="* Suppose you have a set of solvers for a certain problem, each * returning a value of some type {@code Result}, and would like to * run them concurrently, processing the results of each of them that * return a non-null value, in some method {@code use(Result r)}. You * could write this as:" />
+      <item value="the queue to use as the completion queue * normally one dedicated for use by this service. This * queue is treated as unbounded -- failed attempted * {@code Queue.add} operations for completed tasks cause * them not to be retrievable" />
+      <item value="* A {@link CompletionService} that uses a supplied {@link Executor} * to execute tasks. This class arranges that submitted tasks are, * upon completion, placed on a queue accessible using {@code take}. * The class is lightweight enough to be suitable for transient use * when processing groups of tasks." />
+      <item value="* Returns a representation of the specified floating-point value * according to the IEEE 754 floating-point &quot;double * format&quot; bit layout." />
+      <item value="* &lt;p&gt;An alternative to implementing {@code InitializingBean} is specifying a custom * init method, for example in an XML bean definition. For a list of all bean * lifecycle methods, see the {@link BeanFactory BeanFactory javadocs}." />
+      <item value="* Interface to be implemented by beans that need to react once all their properties * have been set by a {@link BeanFactory}: e.g. to perform custom initialization, * or merely to check that all mandatory properties have been set." />
+      <item value="* &lt;p&gt;A Spring-managed bean may also implement Java's {@link AutoCloseable} interface * for the same purpose. An alternative to implementing an interface is specifying a * custom destroy method, for example in an XML bean definition. For a list of all * bean lifecycle methods, see the {@link BeanFactory BeanFactory javadocs}." />
+      <item value="* Interface to be implemented by beans that want to release resources on destruction. * A {@link BeanFactory} will invoke the destroy method on individual destruction of a * scoped bean. An {@link org.springframework.context.ApplicationContext} is supposed * to dispose all of its singletons on shutdown, driven by the application lifecycle." />
       <item value="unaffected" />
       <item value="* Returns the approximate total number of tasks that have ever been * scheduled for execution. Because the states of tasks and * threads may change dynamically during computation, the returned * value is only an approximation." />
       <item value="PIPE" />
       <item value="* Whether suffix pattern matching should work only against extensions registered * with &quot;spring.mvc.contentnegotiation.media-types.*&quot;. This is generally * recommended to reduce ambiguity and to avoid issues such as when a &quot;.&quot; appears * in the path for other reasons." />
       <item value="* Set whether to proxy the target class directly, instead of just proxying * specific interfaces. Default is &quot;false&quot;. * &lt;p&gt;Set this to &quot;true&quot; to force proxying for the TargetSource's exposed * target class. If that target class is an interface, a JDK proxy will be * created for the given interface. If that target class is any other class, * a CGLIB proxy will be created for the given class. * &lt;p&gt;Note: Depending on the configuration of the concrete proxy factory, * the proxy-target-class behavior will also be applied if no interfaces * have been specified (and no interface autodetection is activated)." />
-      <item value="* The number part of each section must consist of one or more ASCII digits. * The number may be prefixed by the ASCII negative or positive symbol. * The number of days, hours and minutes must parse to an {@code long}. * The number of seconds must parse to an {@code long} with optional fraction. * The decimal point may be either a dot or a comma." />
-      <item value="* At least one of the four sections must be present, and if &quot;T&quot; is present * there must be at least one section after the &quot;T&quot;." />
-      <item value="* There are then four sections, each consisting of a number and a suffix. * The sections have suffixes in ASCII of &quot;D&quot;, &quot;H&quot;, &quot;M&quot; and &quot;S&quot; for * days, hours, minutes and seconds, accepted in upper or lower case. * The suffixes must occur in order. The ASCII letter &quot;T&quot; must occur before * the first occurrence, if any, of an hour, minute or second section." />
-      <item value="* The string starts with an optional sign, denoted by the ASCII negative * or positive symbol. If negative, the whole period is negated. * The ASCII letter &quot;P&quot; is next in upper or lower case." />
-      <item value="* Obtains a {@code Duration} from a text string such as {@code PnDTnHnMn.nS}. * &lt;p&gt; * This will parse a textual representation of a duration, including the * string produced by {@code toString()}. The formats accepted are based * on the ISO-8601 duration format {@code PnDTnHnMn.nS} with days * considered to be exactly 24 hours." />
-      <item value="* Enables case-insensitive matching." />
-      <item value="* &lt;p&gt;When specified on a class-level {@code @Async} annotation, indicates that the * given executor should be used for all methods within the class. Method-level use * of {@code Async#value} always overrides any value set at the class level." />
-      <item value="* Convenience method for doing two-step conversion from given value, into * instance of given value type, if (but only if!) conversion is needed. * If given value is already of requested type, value is returned as is." />
-      <item value="Unsatisfied dependency expressed through field 'elasticsearchTemplate" />
-      <item value="stock" />
-      <item value="Commodity" />
-      <item value="desired" />
-      <item value="consecutive" />
-      <item value="thread" />
-      <item value="细线" />
-      <item value="弦" />
-      <item value="bowstring" />
-      <item value="String" />
-      <item value="Decoder Exception" />
-      <item value="retrieve" />
-      <item value="FileNotFoundException: class path resource [com/alibaba/druid/spring/boot/autoconfigure/stat/DruidSpringAopConfiguration.class] cannot be opened because it does not exist" />
-      <item value="sync Data Example" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="23" />
-        <entry key="ENGLISH" value="24" />
+        <entry key="CHINESE" value="69" />
+        <entry key="ENGLISH" value="70" />
       </map>
     </option>
+  </component>
+  <component name="Settings">
+    <option name="ignoreRegExp" value="" />
   </component>
 </application>
