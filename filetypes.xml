@@ -1,19 +1,19 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
-      <mapping pattern="store" type="PLAIN_TEXT" />
-      <mapping pattern="haha" type="PLAIN_TEXT" />
-      <mapping pattern="ddd" type="PLAIN_TEXT" />
-      <mapping pattern="sss" type="PLAIN_TEXT" />
-      <mapping pattern="asdasd" type="PLAIN_TEXT" />
-      <mapping pattern="proofCreds" type="PLAIN_TEXT" />
+      <mapping ext="gradle.kts" type="Kotlin" />
       <mapping pattern="aaa" type="PLAIN_TEXT" />
+      <mapping pattern="sss" type="PLAIN_TEXT" />
+      <mapping pattern="proofCreds" type="PLAIN_TEXT" />
+      <mapping pattern="haha" type="PLAIN_TEXT" />
+      <mapping pattern="asdasd" type="PLAIN_TEXT" />
+      <mapping pattern="store" type="PLAIN_TEXT" />
+      <mapping pattern="ddd" type="PLAIN_TEXT" />
       <mapping pattern="dgdf" type="PLAIN_TEXT" />
       <mapping ext="map" type="PLAIN_TEXT" />
-      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
