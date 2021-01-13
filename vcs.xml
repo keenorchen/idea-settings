@@ -122,6 +122,10 @@
           <option name="url" value="http://chenliuchun@git.zcbrop.com/scm/findip/findip-bank-be.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://chenliuchun@git.zcbrop.com/scm/findip/findip-console-admin-be.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\workspace\findip" />
