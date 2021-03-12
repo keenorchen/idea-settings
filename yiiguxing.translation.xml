@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="note the underscore after {@code onConstructor" />
+      <item value="The syntax for this feature depends on JDK version (nothing we can do about that; it's to work around javac bugs" />
+      <item value="Any annotations listed here are put on the generated constructor" />
       <item value="The bin count threshold for using a tree rather than list for a bin. Bins are converted to trees when adding an element to a bin with at least this many nodes. The value must be greater than 2 and should be at least 8 to mesh with assumptions in tree removal about conversion back to plain bins upon shrinkage." />
       <item value="* Rounding mode to round towards the {@literal &quot;nearest neighbor&quot;} * unless both neighbors are equidistant, in which case, round * towards the even neighbor. Behaves as for * {@code RoundingMode.HALF_UP} if the digit to the left of the * discarded fraction is odd; behaves as for * {@code RoundingMode.HALF_DOWN} if it's even. Note that this * is the rounding mode that statistically minimizes cumulative * error when applied repeatedly over a sequence of calculations. * It is sometimes known as {@literal &quot;Banker's rounding,&quot;} and is * chiefly used in the USA. This rounding mode is analogous to * the rounding policy used for {@code float} and {@code double} * arithmetic in Java." />
       <item value="* When a {@code double} must be used as a source for a * {@code BigDecimal}, note that this constructor provides an * exact conversion; it does not give the same result as * converting the {@code double} to a {@code String} using the * {@link Double#toString(double)} method and then using the * {@link #BigDecimal(String)} constructor. To get that result, * use the {@code static} {@link #valueOf(double)} method." />
@@ -48,18 +51,15 @@
       <item value="* &lt;p&gt;A Spring-managed bean may also implement Java's {@link AutoCloseable} interface * for the same purpose. An alternative to implementing an interface is specifying a * custom destroy method, for example in an XML bean definition. For a list of all * bean lifecycle methods, see the {@link BeanFactory BeanFactory javadocs}." />
       <item value="* Interface to be implemented by beans that want to release resources on destruction. * A {@link BeanFactory} will invoke the destroy method on individual destruction of a * scoped bean. An {@link org.springframework.context.ApplicationContext} is supposed * to dispose all of its singletons on shutdown, driven by the application lifecycle." />
       <item value="unaffected" />
-      <item value="* Returns the approximate total number of tasks that have ever been * scheduled for execution. Because the states of tasks and * threads may change dynamically during computation, the returned * value is only an approximation." />
-      <item value="PIPE" />
-      <item value="* Whether suffix pattern matching should work only against extensions registered * with &quot;spring.mvc.contentnegotiation.media-types.*&quot;. This is generally * recommended to reduce ambiguity and to avoid issues such as when a &quot;.&quot; appears * in the path for other reasons." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="70" />
-        <entry key="ENGLISH" value="71" />
+        <entry key="CHINESE" value="73" />
+        <entry key="ENGLISH" value="74" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1614665639849" />
+    <option name="lastTrimTime" value="1615532498440" />
   </component>
 </application>
