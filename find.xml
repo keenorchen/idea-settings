@@ -14,7 +14,7 @@
     <mask>*</mask>
     <mask>*.xml</mask>
     <mask>*.sol</mask>
-    <mask>*.java</mask>
     <mask>*.pom</mask>
+    <mask>*.java</mask>
   </component>
 </application>
