@@ -13591,6 +13591,12 @@
         <option name="BACKGROUND" value="cce8cf" />
       </value>
     </option>
+    <option name="XML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="ff0097" />
+        <option name="BACKGROUND" value="cce8cf" />
+      </value>
+    </option>
     <option name="me.serce.solidity.CONTRACT_REFERENCE">
       <value>
         <option name="FOREGROUND" value="0" />
