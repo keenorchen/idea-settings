@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Indicates that an annotation type is automatically inherited. If an Inherited meta-annotation is present on an annotation type declaration, and the user queries the annotation type on a class declaration, and the class declaration has no annotation for this type, then the class's superclass will automatically be queried for the annotation type. This process will be repeated until an annotation for this type is found, or the top of the class hierarchy (Object) is reached. If no superclass has an annotation for this type, then the query will indicate that the class in question has no such annotation" />
       <item value="Creates a thread pool that creates new threads as needed, but will reuse previously constructed threads when they are available. These pools will typically improve the performance of programs that execute many short-lived asynchronous tasks. Calls to {@code execute} will reuse previously constructed threads if available. If no existing thread is available, a new thread will be created and added to the pool. Threads that have not been used for sixty seconds are terminated and removed from the cache. Thus, a pool that remains idle for long enough will not consume any resources. Note that pools with similar properties but different details (for example, timeout parameters) may be created using {@link ThreadPoolExecutor} constructors" />
       <item value="equal" />
       <item value="equals" />
@@ -50,7 +51,6 @@
       <item value="* Suppose you have a set of solvers for a certain problem, each * returning a value of some type {@code Result}, and would like to * run them concurrently, processing the results of each of them that * return a non-null value, in some method {@code use(Result r)}. You * could write this as:" />
       <item value="the queue to use as the completion queue * normally one dedicated for use by this service. This * queue is treated as unbounded -- failed attempted * {@code Queue.add} operations for completed tasks cause * them not to be retrievable" />
       <item value="* A {@link CompletionService} that uses a supplied {@link Executor} * to execute tasks. This class arranges that submitted tasks are, * upon completion, placed on a queue accessible using {@code take}. * The class is lightweight enough to be suitable for transient use * when processing groups of tasks." />
-      <item value="* Returns a representation of the specified floating-point value * according to the IEEE 754 floating-point &quot;double * format&quot; bit layout." />
     </histories>
     <option name="languageScores">
       <map>
@@ -60,6 +60,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1615532498440" />
+    <option name="lastTrimTime" value="1619421662606" />
   </component>
 </application>
