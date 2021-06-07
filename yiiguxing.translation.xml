@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="&lt;p&gt;Both Spring Web MVC and Spring WebFlux support this annotation through the {@code RequestMappingHandlerMapping} in their respective modules. The values from each type and method level pair of annotations are added to a {@link CorsConfiguration} and then default values are applied via {@link CorsConfigurationapplyPermitDefaultValues()}." />
       <item value="&lt;p&gt;If {@link WebMvcConfigurer} does not expose some more advanced setting that needs to be configured consider removing the {@code @EnableWebMvc} annotation and extending directly from {@link WebMvcConfigurationSupport} or {@link DelegatingWebMvcConfiguration}, e.g.:" />
       <item value="&lt;p&gt;&lt;strong&gt;Note:&lt;strong&gt; only one {@code @Configuration} class may have the {@code @EnableWebMvc} annotation to import the Spring Web MVC configuration. There can however be multiple {@code @Configuration} classes implementing {@code WebMvcConfigurer} in order to customize the provided configuration." />
       <item value="Adding this annotation to an {@code @Configuration} class imports the Spring MVC configuration from {@link WebMvcConfigurationSupport}, e.g.:" />
@@ -50,12 +51,11 @@
       <item value="* Return the {@link RestHighLevelClient} instance used to connect to the cluster. &lt;br /&gt; * Annotate with {@link Bean} in case you want to expose a {@link RestHighLevelClient} instance to the * {@link org.springframework.context.ApplicationContext}." />
       <item value="* Set whether this factory is supposed to create daemon threads, * just executing as long as the application itself is running. * &lt;p&gt;Default is &quot;false&quot;: Concrete factories usually support explicit cancelling. * Hence, if the application shuts down, Runnables will by default finish their * execution. * &lt;p&gt;Specify &quot;true&quot; for eager shutdown of threads which still actively execute * a {@link Runnable} at the time that the application itself shuts down." />
       <item value="* One common use case is to use a delegating Creator to construct instances from * scalar values (like &lt;code&gt;java.lang.String&lt;/code&gt;) during deserialization, * and serialize values using {@link JsonValue}." />
-      <item value="* NOTE: when use for Java &lt;code&gt;enum&lt;/code&gt;s, one additional feature is * that value returned by annotated method is also considered to be the * value to deserialize from, not just JSON String to serialize as. * This is possible since set of Enum values is constant and it is possible * to define mapping, but can not be done in general for POJO types; as such, * this is not used for POJO deserialization." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="83" />
-        <entry key="ENGLISH" value="84" />
+        <entry key="CHINESE" value="84" />
+        <entry key="ENGLISH" value="85" />
       </map>
     </option>
   </component>
