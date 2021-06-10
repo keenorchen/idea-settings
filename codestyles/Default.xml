@@ -94,7 +94,6 @@
     <option name="XML_KEEP_LINE_BREAKS" value="false" />
     <option name="XML_ALIGN_ATTRIBUTES" value="false" />
     <option name="XML_SPACE_INSIDE_EMPTY_TAG" value="true" />
-    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
   <codeStyleSettings language="JAVA">
     <option name="RIGHT_MARGIN" value="120" />
@@ -105,7 +104,9 @@
     <option name="RIGHT_MARGIN" value="120" />
     <option name="FORCE_REARRANGE_MODE" value="1" />
     <indentOptions>
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
     </indentOptions>
     <arrangement>
       <rules>
