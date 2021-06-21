@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The default value is &amp;lt;code&amp;gt;..pom.xml&amp;lt;code&amp;gt;." />
       <item value="&lt;p&gt;Both Spring Web MVC and Spring WebFlux support this annotation through the {@code RequestMappingHandlerMapping} in their respective modules. The values from each type and method level pair of annotations are added to a {@link CorsConfiguration} and then default values are applied via {@link CorsConfigurationapplyPermitDefaultValues()}." />
       <item value="&lt;p&gt;If {@link WebMvcConfigurer} does not expose some more advanced setting that needs to be configured consider removing the {@code @EnableWebMvc} annotation and extending directly from {@link WebMvcConfigurationSupport} or {@link DelegatingWebMvcConfiguration}, e.g.:" />
       <item value="&lt;p&gt;&lt;strong&gt;Note:&lt;strong&gt; only one {@code @Configuration} class may have the {@code @EnableWebMvc} annotation to import the Spring Web MVC configuration. There can however be multiple {@code @Configuration} classes implementing {@code WebMvcConfigurer} in order to customize the provided configuration." />
@@ -50,16 +51,15 @@
       <item value="* Builds a cache, which either returns an already-loaded value for a given key or atomically * computes or retrieves it using the supplied {@code CacheLoader}. If another thread is currently * loading the value for this key, simply waits for that thread to finish and returns its loaded * value. Note that multiple threads can concurrently load values for distinct keys." />
       <item value="* Return the {@link RestHighLevelClient} instance used to connect to the cluster. &lt;br /&gt; * Annotate with {@link Bean} in case you want to expose a {@link RestHighLevelClient} instance to the * {@link org.springframework.context.ApplicationContext}." />
       <item value="* Set whether this factory is supposed to create daemon threads, * just executing as long as the application itself is running. * &lt;p&gt;Default is &quot;false&quot;: Concrete factories usually support explicit cancelling. * Hence, if the application shuts down, Runnables will by default finish their * execution. * &lt;p&gt;Specify &quot;true&quot; for eager shutdown of threads which still actively execute * a {@link Runnable} at the time that the application itself shuts down." />
-      <item value="* One common use case is to use a delegating Creator to construct instances from * scalar values (like &lt;code&gt;java.lang.String&lt;/code&gt;) during deserialization, * and serialize values using {@link JsonValue}." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="84" />
-        <entry key="ENGLISH" value="85" />
+        <entry key="CHINESE" value="85" />
+        <entry key="ENGLISH" value="86" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1622881526998" />
+    <option name="lastTrimTime" value="1624247311852" />
   </component>
 </application>
