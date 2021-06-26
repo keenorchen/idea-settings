@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="{@link Conditional @Conditional} that only matches when no beans meeting the specified requirements are already contained in the {@link BeanFactory}. None of the requirements must be met for the condition to match and the requirements do not have to be met by the same bean." />
       <item value="join" />
       <item value="The default value is &amp;lt;code&amp;gt;..pom.xml&amp;lt;code&amp;gt;." />
       <item value="&lt;p&gt;Both Spring Web MVC and Spring WebFlux support this annotation through the {@code RequestMappingHandlerMapping} in their respective modules. The values from each type and method level pair of annotations are added to a {@link CorsConfiguration} and then default values are applied via {@link CorsConfigurationapplyPermitDefaultValues()}." />
@@ -50,12 +51,11 @@
       <item value="* Set whether to wait for scheduled tasks to complete on shutdown, * not interrupting running tasks and executing all tasks in the queue. * &lt;p&gt;Default is &quot;false&quot;, shutting down immediately through interrupting * ongoing tasks and clearing the queue. Switch this flag to &quot;true&quot; if you * prefer fully completed tasks at the expense of a longer shutdown phase. * &lt;p&gt;Note that Spring's container shutdown continues while ongoing tasks * are being completed. If you want this executor to block and wait for the * termination of tasks before the rest of the container continues to shut * down - e.g. in order to keep up other resources that your tasks may need -," />
       <item value="* &lt;p&gt;This method does not alter the state of this {@code CacheBuilder} instance, so it can be * invoked again to create multiple independent caches." />
       <item value="* Builds a cache, which either returns an already-loaded value for a given key or atomically * computes or retrieves it using the supplied {@code CacheLoader}. If another thread is currently * loading the value for this key, simply waits for that thread to finish and returns its loaded * value. Note that multiple threads can concurrently load values for distinct keys." />
-      <item value="* Return the {@link RestHighLevelClient} instance used to connect to the cluster. &lt;br /&gt; * Annotate with {@link Bean} in case you want to expose a {@link RestHighLevelClient} instance to the * {@link org.springframework.context.ApplicationContext}." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="86" />
-        <entry key="ENGLISH" value="87" />
+        <entry key="CHINESE" value="87" />
+        <entry key="ENGLISH" value="88" />
       </map>
     </option>
   </component>
