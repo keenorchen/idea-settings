@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The effect of {@code @Builder} is that an inner class is generated named &lt;code&gt;&lt;strong&gt;T&lt;strong&gt;Builder&lt;code&gt;, with a private constructor. Instances of &lt;code&gt;&lt;strong&gt;T&lt;strong&gt;Builder&lt;code&gt; are made with the method named {@code builder()} which is also generated for you in the class itself (not in the builder class)." />
+      <item value="If a member is annotated, it must be either a constructor or a method. If a class is annotated, then a package-private constructor is generated with all fields as arguments (as if {@code @AllArgsConstructor(access = AccessLevel.PACKAGE)} is present on the class), and it is as if this constructor has been annotated with {@code @Builder} instead. Note that this constructor is only generated if you haven't written any constructors and also haven't added any explicit {@code @XArgsConstructor} annotations. In those cases, lombok will assume an all-args constructor is present and generate code that uses it; this means you'd get a compiler error if this constructor is not present." />
       <item value="Ambiguous" />
       <item value="Unsatisfied Dependency Exception" />
       <item value="销毁" />
@@ -49,17 +51,15 @@
       <item value="drain" />
       <item value="* Transitions to TERMINATED state if either (SHUTDOWN and pool * and queue empty) or (STOP and pool empty). If otherwise * eligible to terminate but workerCount is nonzero, interrupts an * idle worker to ensure that shutdown signals propagate. This * method must be called following any action that might make * termination possible -- reducing worker count or removing tasks * from the queue during shutdown. The method is non-private to * allow access from ScheduledThreadPoolExecutor." />
       <item value="If you want this executor to block and wait for the * termination of tasks before the rest of the container continues to shut * down" />
-      <item value="Note that Spring's container shutdown continues while ongoing tasks * are being completed" />
-      <item value="ongoing tasks * are being completed" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="90" />
-        <entry key="ENGLISH" value="91" />
+        <entry key="CHINESE" value="93" />
+        <entry key="ENGLISH" value="94" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1626855586209" />
+    <option name="lastTrimTime" value="1627887764960" />
   </component>
 </application>
