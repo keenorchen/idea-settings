@@ -4,6 +4,9 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="shift alt left" />
   </action>
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="alt x" />
+  </action>
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
   <action id="ECTranslation">
