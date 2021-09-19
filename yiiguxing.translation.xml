@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Invalid" />
       <item value="It is not recommend to throw exception,rather than returning ConsumeOrderlyStatus.SUSPEND_CURRENT_QUEUE_A_MOMENT if consumption failure" />
       <item value="A MessageListenerConcurrently object is used to receive asynchronously delivered messages orderly.one queue,one thread" />
       <item value="The effect of {@code @Builder} is that an inner class is generated named &lt;code&gt;&lt;strong&gt;T&lt;strong&gt;Builder&lt;code&gt;, with a private constructor. Instances of &lt;code&gt;&lt;strong&gt;T&lt;strong&gt;Builder&lt;code&gt; are made with the method named {@code builder()} which is also generated for you in the class itself (not in the builder class)." />
@@ -50,7 +51,6 @@
       <item value="Perform a shutdown on the underlying ExecutorService" />
       <item value="* &lt;p&gt;Specify &quot;true&quot; for eager shutdown of threads which still actively execute * a {@link Runnable} at the time that the application itself shuts down." />
       <item value="* Set whether this factory is supposed to create daemon threads, * just executing as long as the application itself is running. * &lt;p&gt;Default is &quot;false&quot;: Concrete factories usually support explicit cancelling. * Hence, if the application shuts down, Runnables will by default finish their * execution." />
-      <item value="drain" />
     </histories>
     <option name="languageScores">
       <map>
