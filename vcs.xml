@@ -166,6 +166,10 @@
           <option name="url" value="https://gitee.com/keenor/questionnaire-a.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.chutian.cloud" />
+          <option name="userName" value="liuchunchen" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\workspace\keenor" />
