@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="While {@code limit()} is generally a cheap operation on sequential stream pipelines, it can be quite expensive on ordered parallel pipelines, especially for large values of {@code maxSize}, since {@code limit(n)} is constrained to return not just any &lt;em&gt;n&lt;em&gt; elements, but the &lt;em&gt;first n&lt;em&gt; elements in the encounter order" />
+      <item value="While {@code limit()} is generally a cheap operation on sequential stream pipelines, it can be quite expensive on ordered parallel pipelines, especially for large values of {@code maxSize}, since {@code limit(n)} is constrained to return not just any &lt;em&gt;n&lt;em&gt; elements, but the &lt;em&gt;first n&lt;em&gt; elements in the encounter order. Using an unordered stream source (such as {@link generate(Supplier)}) or removing the ordering constraint with {@link unordered()} may result in significant speedups of {@code limit()} in parallel pipelines, if the semantics of your situation permit. If consistency with encounter order is required, and you are experiencing poor performance or memory utilization with {@code limit()} in parallel pipelines, switching to sequential execution with {@link sequential()} may improve performance." />
       <item value="Invalid" />
       <item value="It is not recommend to throw exception,rather than returning ConsumeOrderlyStatus.SUSPEND_CURRENT_QUEUE_A_MOMENT if consumption failure" />
       <item value="A MessageListenerConcurrently object is used to receive asynchronously delivered messages orderly.one queue,one thread" />
@@ -49,8 +51,6 @@
       <item value="* &lt;p&gt;By default, this executor won't wait for the termination of tasks at all. * It will either shut down immediately, interrupting ongoing tasks and clearing * the remaining task queue - or, if the * {@link #setWaitForTasksToCompleteOnShutdown &quot;waitForTasksToCompleteOnShutdown&quot;} * flag has been set to {@code true}, it will continue to fully execute all * ongoing tasks as well as all remaining tasks in the queue, in parallel to * the rest of the container shutting down." />
       <item value="* Set the maximum number of seconds that this executor is supposed to block * on shutdown in order to wait for remaining tasks to complete their execution * before the rest of the container continues to shut down. This is particularly * useful if your remaining tasks are likely to need access to other resources * that are also managed by the container." />
       <item value="Perform a shutdown on the underlying ExecutorService" />
-      <item value="* &lt;p&gt;Specify &quot;true&quot; for eager shutdown of threads which still actively execute * a {@link Runnable} at the time that the application itself shuts down." />
-      <item value="* Set whether this factory is supposed to create daemon threads, * just executing as long as the application itself is running. * &lt;p&gt;Default is &quot;false&quot;: Concrete factories usually support explicit cancelling. * Hence, if the application shuts down, Runnables will by default finish their * execution." />
     </histories>
     <option name="languageScores">
       <map>
