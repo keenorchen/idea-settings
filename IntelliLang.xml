@@ -30,5 +30,10 @@
       <single-file value="true" />
       <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.apache.ibatis.annotations.Update")]]></place>
     </injection>
+    <injection language="PostgreSQL" injector-id="xml">
+      <display-name>mapper</display-name>
+      <single-file value="false" />
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("mapper")).withNamespace(string().equalTo("http://mybatis.org/dtd/mybatis-3-mapper.dtd"))]]></place>
+    </injection>
   </component>
 </application>
