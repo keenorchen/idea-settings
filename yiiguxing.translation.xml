@@ -62,4 +62,17 @@
   <component name="Cache">
     <option name="lastTrimTime" value="1629970918165" />
   </component>
+  <component name="Translation.Cache">
+    <option name="lastTrimTime" value="1671893053165" />
+  </component>
+  <component name="Translation.Settings">
+    <option name="primaryLanguage" value="CHINESE" />
+    <option name="translator" value="MICROSOFT" />
+  </component>
+  <component name="Translation.States">
+    <histories>
+      <item value="Request" />
+      <item value="code" />
+    </histories>
+  </component>
 </application>
